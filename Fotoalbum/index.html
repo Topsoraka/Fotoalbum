@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fotogram</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon/favicon.svg" />
+</head>
+<body>
+<header class="hero">
+  <img src="./logo/Fotogram_Logo.svg" alt="Fotogram Logo" class="logo" />
+  <div class="hero-content">
+    <h1>Fotogram</h1>
+    <p class="subtitle">Dein persönliches Fotoalbum </p>
+  </div>
+</header>
+
+
+  <main id="gallery" class="gallery"></main>
+
+ <div id="lightbox" class="lightbox hidden">
+  <span class="close">&times;</span>
+  <img id="lightbox-img" src="" alt="Large View" />
+  <div id="counter" class="counter"></div>
+  <button id="prev">&#8592;</button>
+  <button id="next">&#8594;</button>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
